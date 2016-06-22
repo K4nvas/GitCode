@@ -2,7 +2,7 @@
 // angular.module("MyFirstApp",[]);
 app.controller("FirstController", function($scope)
 {
-	$scope.nombre = "Richard";
+	$scope.nombre = "Richard Gómez";
     $scope.nuevoComentario = {};
     $scope.comentarios = [
     {
