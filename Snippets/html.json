@@ -1,0 +1,54 @@
+{
+/*
+	 // Place your snippets for HTML here. Each snippet is defined under a snippet name and has a prefix, body and 
+	 // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	 // $1, $2 for tab stops, ${id} and ${id:label} and ${1:label} for variables. Variables with the same id are connected.
+	 // Example:
+	 "Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	}
+*/
+
+"Html Standar Page" :
+		{
+			"prefix": "html_standar",
+			"body": 
+			[	
+				"<!DOCTYPE html>",
+				"<HTML>",
+				"\t<head>",
+				"\t\t<meta charset=\"UTF-8\">",
+				"\t\t<title>${Page Tittle}</title>",
+				"\t</head>",
+				"\t<body>",
+				"\t\t${Page Content}",
+				"\t</body>",
+				"<HTML>"
+			],
+			"description": "Standar Page Html"
+		}
+	
+	// "html5": {
+    // "prefix": "html5",
+    // "body": [
+    //     "<!DOCTYPE html>",
+    //     "<html lang=\"$1en\">",
+    //     "\t<head>",
+    //     "\t\t<title>$2</title>",
+    //     "\t\t<meta charset=\"UTF-8\">",
+    //     "\t\t<link href=\"$3css/style.css\" rel=\"stylesheet\">",
+    //     "\t</head>",
+    //     "\t<body>",
+    //     "\t$4",
+    //     "\t</body>",
+    //     "</html>"
+    //     ],
+    // "description": "HTML - Defines a template for a html5 document",
+    // "scope": "text.html"
+    // }
+}
